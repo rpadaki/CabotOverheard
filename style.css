@@ -1,0 +1,21 @@
+.quadrant {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+}
+
+.north {
+    top: 0;
+}
+
+.south {
+    top: 50%;
+}
+
+.west {
+    left: 0;
+}
+
+.east {
+    left: 50%;
+}
