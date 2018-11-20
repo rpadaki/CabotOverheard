@@ -1,3 +1,7 @@
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
 .quadrant {
     position: fixed;
     width: 50%;
@@ -18,4 +22,27 @@
 
 .east {
     left: 50%;
+}
+
+.quote {
+    height: 60%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.attribution {
+    height: 20%;
+    width: 100%;
+    display: table-cell;
+    text-align: right;
+}
+
+.time {
+    height: 20%;
+    width: 100%;
+    text-color: gray;
+    display: table-cell;
+    text-align: right;
 }
