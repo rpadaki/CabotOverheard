@@ -22,7 +22,7 @@ function fetchQuotes(set = setQuotes) {
 }
 
 function setEntry(entry, data) {
-    entry.getElementsByClassName("quote")[0].innerHTML = data.quote;
+    entry.getElementsByClassName("quote")[0].innerHTML = "&ldquo;" + data.quote + "&rdquo;";
     entry.getElementsByClassName("attribution")[0].innerHTML = data.attribution;
     entry.getElementsByClassName("time")[0].innerHTML = new Date(Date.parse(data.time)).toLocaleString("en-us", {weekday: "long", month: "long", day: "numeric", hour: "numeric", minute:"2-digit"});
     entry.hash = JSON.stringify(data);
