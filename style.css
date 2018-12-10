@@ -52,12 +52,15 @@ a {
 
 .quote {
     padding: 25px;
-    font-size: large;
+    font-size: x-large;
 }
 
 .attribution {
     padding: 25px;
-    text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+    font-size: large;
 }
 
 .time {
